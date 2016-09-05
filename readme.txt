@@ -7,13 +7,13 @@ Contributors: SamSK
 Donate link: https://devel.dob.sk/wp-datatable
 License: GPLv3 or later
 
-WP DataTable provides simple possibility to include raw DataTable to any blog post or page.
+WP DataTable provides simple possibility to include raw DataTables in any blog post or page.
 
 == Description ==
 
 = Features  =
 
-WP DataTable is a Wordpress plugin for insertion of static or dynamic DataTable (http://datatables.net/) to any blog post or page.
+WP DataTable is a Wordpress plugin for insertion of static or dynamic DataTable functionality (http://datatables.net/) to any blog post or page.
 
 * Provision of DataTables script and css style
 * Full configuration via raw javascript (see https://datatables.net/reference/option/ for more info)
@@ -29,7 +29,7 @@ WP DataTable is a Wordpress plugin for insertion of static or dynamic DataTable 
 [/wp-datatable]
 `
 
-* *id* - specifies ID of table to which datatable functionality should be applied
+* *id* - specifies ID of existing table to which datatable functionality should be applied
 * `CONTENT` - optional datatables configuration
 
 == Installation ==

@@ -25,14 +25,13 @@ function wp_datatable_shortcode($attrs, $content = null) {
 	// id=ID
 	$id = $attrs['id'];
 
-	wp_enqueue_style('wp-datatable-style');
 	wp_enqueue_script('wp-datatable-script');
 
-	if ($content) {
+	if ($content || $id) {
 		if (!isset($id))
-			return '<b>wp-datatable: required parameter ID missing</b>';
+			return '<b>wp-datatable: required parameter ID is missing</b>';
 
-		$content = 'jQuery(' . "'#$id'" . ').DataTable({' . $content . '});';
+		$content = 'jQuery(document).ready(function () { jQuery(' . "'#$id'" . ').DataTable({' . $content . '}); });';
 
 		return '<script type="text/javascript">' .
 				$content .

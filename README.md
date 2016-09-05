@@ -12,7 +12,7 @@ WP DataTable is a [Wordpress](https://wordpress.org) plugin for insertion of sta
 [/wp-datatable]
 ```
 
-- ***id*** - (*optional*) specifies ID of table to which datatable functionality should be applied
+- ***id*** - (*optional*) specifies ID of existing table to which datatable functionality should be applied
 - `CONTENT` - optional datatables configuration
 
 # Installation
