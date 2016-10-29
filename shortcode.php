@@ -23,7 +23,7 @@ defined('ABSPATH') or exit();
 
 function wp_datatable_shortcode($attrs, $content = null) {
 	// id=ID
-	$id = $attrs['id'];
+	$id = $attrs ? $attrs['id'] :  0;
 
 	wp_enqueue_script('wp-datatable-script');
 
