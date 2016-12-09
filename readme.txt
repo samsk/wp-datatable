@@ -1,7 +1,7 @@
 === WP DataTable ===
 Tags: jquery, datatables
 Requires at least: 4.0
-Tested up to: 4.6
+Tested up to: 4.7
 Stable tag: 0.2.1
 Contributors: SamSK
 Donate link: https://devel.dob.sk/wp-datatable
