@@ -1,8 +1,8 @@
 === WP DataTable ===
 Tags: jquery, datatables
 Requires at least: 4.0
-Tested up to: 4.7
-Stable tag: 0.2.1
+Tested up to: 4.7.1
+Stable tag: 0.2.2
 Contributors: SamSK
 Donate link: https://devel.dob.sk/wp-datatable
 License: GPLv3 or later
@@ -38,6 +38,11 @@ WP DataTable is a Wordpress plugin for insertion of static or dynamic DataTable 
 1. Install and activate the plugin as usual from the 'Plugins' menu in WordPress.
 
 == Changelog ==
+
+= 0.2.2 (2017-01-18) =
+
+* Fix sort images paths
+* Update jQuery DataTables to 1.10.13
 
 = 0.2.1 (2016-10-29) =
 
