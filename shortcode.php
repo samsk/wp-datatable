@@ -24,8 +24,16 @@ defined('ABSPATH') or exit();
 function wp_datatable_shortcode($attrs, $content = null) {
 	// id=ID
 	$id = $attrs ? $attrs['id'] :  0;
+	// fat=LEVEL
+	$fat = $attrs ? $attrs['fat'] :  0;
 
-	wp_enqueue_script('wp-datatable-script');
+	if (!$fat) {
+		wp_enqueue_style('wp-datatable-style');
+		wp_enqueue_script('wp-datatable-script');
+	} else {
+		wp_enqueue_style('wp-datatable-style-fat1');
+		wp_enqueue_script('wp-datatable-script-fat1');
+	}
 
 	if ($content || $id) {
 		if (!isset($id))

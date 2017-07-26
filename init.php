@@ -23,8 +23,13 @@ defined('ABSPATH') or exit();
 
 function wp_datatable_enqueue()
 {
-	wp_enqueue_style('wp-datatable-style', plugins_url('css/datatables.min.css?v=1.10.12', __FILE__));
-	wp_register_script('wp-datatable-script', plugins_url('js/datatables.min.js?v=1.10.12', __FILE__));
+	define('WP_DATATABLE_VERSION', '1.10.15');
+
+	wp_register_style('wp-datatable-style', plugins_url('css/datatables.min.css?v=' . WP_DATATABLE_VERSION, __FILE__));
+	wp_register_script('wp-datatable-script', plugins_url('js/datatables.min.js?v=' . WP_DATATABLE_VERSION, __FILE__));
+
+	wp_register_style('wp-datatable-style-fat1', plugins_url('css/datatables-fat1.min.css?v=' . WP_DATATABLE_VERSION, __FILE__));
+	wp_register_script('wp-datatable-script-fat1', plugins_url('js/datatables-fat1.min.js?v=' . WP_DATATABLE_VERSION, __FILE__));
 }
 add_action('wp_enqueue_scripts', 'wp_datatable_enqueue');
 

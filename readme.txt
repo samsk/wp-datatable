@@ -1,13 +1,13 @@
 === WP DataTable ===
 Tags: jquery, datatables
 Requires at least: 4.0
-Tested up to: 4.7.1
-Stable tag: 0.2.2
+Tested up to: 4.8.0
+Stable tag: 0.2.3
 Contributors: SamSK
 Donate link: https://devel.dob.sk/wp-datatable
 License: GPLv3 or later
 
-WP DataTable provides simple possibility to include raw DataTables in any blog post or page.
+WP DataTable provides simple possibility to include raw javascript DataTables in any blog post or page.
 
 == Description ==
 
@@ -21,7 +21,7 @@ WP DataTable is a Wordpress plugin for insertion of static or dynamic DataTable 
 = Usage =
 
 `
-[wp-datatable id="ID"]
+[wp-datatable id="ID" fat="0|1"]
     paging: false,
     responsible: true,
     search: true,
@@ -38,6 +38,11 @@ WP DataTable is a Wordpress plugin for insertion of static or dynamic DataTable 
 1. Install and activate the plugin as usual from the 'Plugins' menu in WordPress.
 
 == Changelog ==
+
+= 0.2.3 (2017-07-23) =
+
+* Update jQuery DataTables to 1.10.15
+* Added Datatables with Button plugin, served if attribute fat=1
 
 = 0.2.2 (2017-01-18) =
 
