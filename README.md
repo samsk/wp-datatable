@@ -17,7 +17,7 @@ WP DataTable is a [Wordpress](https://wordpress.org) plugin for insertion of sta
 - `CONTENT` - optional datatables configuration
 
 # Fat level
-- adds Button plugin with HTML5 export and Print preview
+1 adds Button plugin with HTML5 export and Print preview
 
 # Installation
 * Download plugin to *wp-content/plugins* directory
