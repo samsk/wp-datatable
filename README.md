@@ -4,7 +4,7 @@ WP DataTable is a [Wordpress](https://wordpress.org) plugin for insertion of sta
 
 # Syntax
 ```
-[wp-datatable id="ID"]
+[wp-datatable id="ID" fat="LEVEL"]
   paging: false,
   responsible: true,
   search: true,
@@ -13,7 +13,11 @@ WP DataTable is a [Wordpress](https://wordpress.org) plugin for insertion of sta
 ```
 
 - ***id*** - (*optional*) specifies ID of existing table to which datatable functionality should be applied
+- ***fat*** - (*optional*) provide fat version of datatables
 - `CONTENT` - optional datatables configuration
+
+# Fat level
+- adds Button plugin with HTML5 export and Print preview
 
 # Installation
 * Download plugin to *wp-content/plugins* directory
