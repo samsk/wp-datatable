@@ -7,11 +7,12 @@ Contributors: SamSK
 Donate link: https://devel.dob.sk/wp-datatable
 License: GPLv3 or later
 
-WP DataTable provides simple possibility to include raw javascript DataTables in any blog post or page.
+WP DataTable provides simple possibility to include raw javascript DataTables in any blog post or page, that will add advanced interaction controls to any HTML table.
 
 == Description ==
 
 WP DataTable is a Wordpress plugin for insertion of static or dynamic DataTable functionality (http://datatables.net/) to any blog post or page.
+Extensions included: Buttons (fat=1), Column visibility, HTML5 export (fat=1), Print view (fat=1), ColReorder, FixedColumns, FixedHeader, Responsive, Select
 
 = Features  =
 
@@ -21,16 +22,21 @@ WP DataTable is a Wordpress plugin for insertion of static or dynamic DataTable 
 = Usage =
 
 `
-[wp-datatable id="ID" fat="0|1"]
+[wp-datatable id="ID" fat="LEVEL"]
     paging: false,
-    responsible: true,
+    responsive: true,
     search: true,
     //.. and more - see https://datatables.net/reference/option for full reference
 [/wp-datatable]
 `
 
 * *id* - specifies ID of existing table to which datatable functionality should be applied
+* *fat* - (*optional*) provide fat version of datatables (see Fat level)
 * `CONTENT` - optional datatables configuration
+
+= Fat level =
+
+1. adds Button extension with HTML5 export and Print preview + JSZip for excel export
 
 == Installation ==
 
