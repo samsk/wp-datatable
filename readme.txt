@@ -1,8 +1,8 @@
 === WP DataTable ===
 Tags: jquery, datatables
 Requires at least: 4.0
-Tested up to: 4.8.0
-Stable tag: 0.2.3
+Tested up to: 4.9.0
+Stable tag: 0.2.4
 Contributors: SamSK
 Donate link: https://devel.dob.sk/wp-datatable
 License: GPLv3 or later
@@ -44,6 +44,11 @@ Extensions included: Buttons (fat=1), Column visibility, HTML5 export (fat=1), P
 1. Install and activate the plugin as usual from the 'Plugins' menu in WordPress.
 
 == Changelog ==
+
+= 0.2.4 (2017-11-07) =
+
+* Update jQuery DataTables to 1.10.16
+* Fixed sort icon paths
 
 = 0.2.3 (2017-07-23) =
 
