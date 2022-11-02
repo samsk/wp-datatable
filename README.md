@@ -10,6 +10,10 @@ Extension included: Buttons (fat=1), Column visibility, HTML5 export (fat=1), Pr
   paging: false,
   responsible: true,
   search: true,
+  columnDefs: [ {
+      targets: 'no-sort',
+      orderable: false
+    } ]
 //.. and more - see https://datatables.net/reference/option for full reference
 [/wp-datatable]
 ```

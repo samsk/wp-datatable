@@ -1,6 +1,6 @@
 <?php
 /*
- * Copyright 2016 Samuel Behan <samuel(.)behan(at)dob(.)sk>
+ * Copyright 2016-2022 Samuel Behan <samuel(.)behan(at)dob(.)sk>
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -23,7 +23,7 @@ defined('ABSPATH') or exit();
 
 function wp_datatable_enqueue()
 {
-	define('WP_DATATABLE_VERSION', '1.10.15');
+	define('WP_DATATABLE_VERSION', '1.12.1');
 
 	wp_register_style('wp-datatable-style', plugins_url('css/datatables.min.css?v=' . WP_DATATABLE_VERSION, __FILE__));
 	wp_register_script('wp-datatable-script', plugins_url('js/datatables.min.js?v=' . WP_DATATABLE_VERSION, __FILE__));

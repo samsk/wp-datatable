@@ -1,6 +1,6 @@
 <?php
 /*
- * Copyright 2016 Samuel Behan <samuel(.)behan(at)dob(.)sk>
+ * Copyright 2016-2022 Samuel Behan <samuel(.)behan(at)dob(.)sk>
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -25,7 +25,7 @@ function wp_datatable_shortcode($attrs, $content = null) {
 	// id=ID
 	$id = $attrs ? $attrs['id'] :  0;
 	// fat=LEVEL
-	$fat = $attrs ? $attrs['fat'] :  0;
+	$fat = intval($attrs ? $attrs['fat'] :  0);
 
 	if (!$fat) {
 		wp_enqueue_style('wp-datatable-style');
