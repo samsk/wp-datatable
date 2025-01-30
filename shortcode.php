@@ -38,6 +38,7 @@ function wp_datatable_shortcode($attrs, $content = null) {
 	if ($content || $id) {
 		if (!isset($id))
 			return '<b>wp-datatable: required parameter ID is missing</b>';
+		$id = esc_attr($id);
 
 		$content = 'jQuery(document).ready(function () { jQuery(' . "'#$id'" . ').DataTable({' . $content . '}); });';
 
