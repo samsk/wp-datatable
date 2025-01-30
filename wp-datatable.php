@@ -3,7 +3,7 @@
    Plugin Name: WP DataTable
    Plugin URI: https://devel.dob.sk/wp-datatable
    Description: Provide jQuery DataTables for HTML tables
-   Version: 0.2.6
+   Version: 0.3.0
    Author: Samuel Behan
    Author URI: https://dob.sk
    Text Domain: datatable
@@ -11,7 +11,7 @@
  */
 
 /*
- * Copyright 2016-2018 Samuel Behan
+ * Copyright 2016-2025 Samuel Behan
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by

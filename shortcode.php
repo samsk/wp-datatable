@@ -1,6 +1,6 @@
 <?php
 /*
- * Copyright 2016-2022 Samuel Behan <samuel(.)behan(at)dob(.)sk>
+ * Copyright 2016-2025 Samuel Behan <samuel(.)behan(at)dob(.)sk>
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
