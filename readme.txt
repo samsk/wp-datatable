@@ -1,8 +1,8 @@
 === WP DataTable ===
 Tags: jquery, datatables
 Requires at least: 4.0
-Tested up to: 6.1
-Stable tag: 0.2.6
+Tested up to: 6.7
+Stable tag: 0.2.7
 Contributors: SamSK
 Donate link: https://devel.dob.sk/wp-datatable
 License: GPLv3 or later
@@ -44,6 +44,10 @@ Extensions included: Buttons (fat=1), Column visibility, HTML5 export (fat=1), P
 1. Install and activate the plugin as usual from the 'Plugins' menu in WordPress.
 
 == Changelog ==
+
+= 0.2.7 (2025-01-31) =
+
+* Fix Contributor XSS via id attribute (reported by zaim via Wordfence)
 
 = 0.2.6 (2022-11-02) =
 
